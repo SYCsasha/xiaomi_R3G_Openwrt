@@ -6,3 +6,4 @@ src-git oui https://github.com/zhaojh329/oui.git
 src-git kenzo https://github.com/kenzok8/openwrt-packages
 src-git ken https://github.com/kenzok8/small-package
 src-git small https://github.com/kenzok8/small
+src-git ccyy https://github.com/kiddin9/openwrt-packages
