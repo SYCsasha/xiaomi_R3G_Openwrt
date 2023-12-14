@@ -10,9 +10,9 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 
-Modify default IP
+# Modify default IP
 sed -i 's/192.168.1.1/192.168.5.1/g' package/base-files/files/bin/config_generate
 # ------------------------------- Other started -------------------------------
 #
-Add luci-theme-argon
-svn co https://github.com/jerrykuku/luci-theme-argon/tree/18.06?tab=readme-ov-file package/luci-theme-argon
+# Add luci-theme-argon
+svn co https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
